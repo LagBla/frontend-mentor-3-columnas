@@ -31,7 +31,7 @@ img {
 
 .container {
     max-width: 1440px;
-    min-width: 375px;
+    min-width:375px;
    
 }
 
@@ -80,21 +80,21 @@ button:hover {
 }
 
 .sedans_boton {
-    color: var(--primary-1)
+    color: var(--primary-1);
 }
 
 .suvs_boton {
-    color: var(--primary-2)
+    color: var(--primary-2);
 }
 
 .luxury_boton {
-    color: var(--primary-3)
+    color: var(--primary-3);
 }
 
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 400px) {
 
     body {
         display: flex;
