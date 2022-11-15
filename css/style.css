@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: var(--neutral-2);
+    color: rgba(255, 255, 255, 0.573);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 2em;
+
+}
+
+h1 {
+
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+img {
+    padding: 1em;
+}
+
+.container {
+    max-width: 1440px;
+    min-width: 375px;
+   
+}
+
+button {
+    margin-top: 1em;
+    border: none;
+    border-radius: 7rem;
+    height: 3em;
+    width: 9em;
+    transition-duration: .5s;
+    transition-timing-function: 0.5s ease-in-out;
+    position: static;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    transition-duration: 0.5s;
+    color: var(--neutral-2);
+    outline-style: solid;
+    outline-width: 2px;
+    border-color: var(--neutral-2);
+    min-width: 800;
+}
+
+
+.sedans {
+    background-color: var(--primary-1);
+    padding: 3em;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    min-width: 800;
+}
+
+.suvs {
+    background-color: var(--primary-2);
+    padding: 3em;
+    
+}
+
+.luxury {
+    background-color: var(--primary-3);
+    padding: 3em;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.sedans_boton {
+    color: var(--primary-1)
+}
+
+.suvs_boton {
+    color: var(--primary-2)
+}
+
+.luxury_boton {
+    color: var(--primary-3)
+}
+
+
+
+
+@media (min-width: 600px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        display: flex;
+
+    }
+
+
+    .sedans {
+        width: 300px;
+        border-bottom-left-radius: 6px;
+        border-top-right-radius: 0px;
+
+    }
+
+    .luxury {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 6px;
+        width: 300px;
+    }
+
+    .suvs {
+        width: 300px;
+    }
+
+    button {
+        margin-top: 6em;
+
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: transparent;
+        transition: 0.5s;
+        color: var(--neutral-2);
+        outline-style: solid;
+        border-color: var(--neutral-2);
+        outline-width: 2px;
+    }
+
+}
