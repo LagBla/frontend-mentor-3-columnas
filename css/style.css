@@ -14,6 +14,8 @@ body {
     line-height: 25px;
     padding: 2em;
 
+
+
 }
 
 h1 {
@@ -31,8 +33,10 @@ img {
 
 .container {
     max-width: 1440px;
-    min-width:375px;
-   
+    min-width: 375px;
+
+
+
 }
 
 button {
@@ -44,6 +48,8 @@ button {
     transition-duration: .5s;
     transition-timing-function: 0.5s ease-in-out;
     position: static;
+
+
 }
 
 button:hover {
@@ -69,7 +75,7 @@ button:hover {
 .suvs {
     background-color: var(--primary-2);
     padding: 3em;
-    
+
 }
 
 .luxury {
